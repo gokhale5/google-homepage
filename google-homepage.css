@@ -1,0 +1,142 @@
+header > ul > .header-right {
+	margin-left: 680px;
+}
+
+header > ul {
+	list-style-type: none;
+}
+
+header > ul > .header-right > li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+header > ul > .header-right > li > a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+
+header > ul > .header-right > li > button {
+	color: white;
+	background-color: #3E91DD;
+	border-color: #3E91DD;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	border-radius: 1px;
+}
+
+header > ul > .header-right > li > button {
+	focus: blur;
+}
+
+
+header > ul > .header-right > li > a:hover {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#input {
+	text-align: center;
+	border: medium none;
+	outline: medium none;
+	margin-top: 20px;
+
+}
+
+
+#input > input {
+	width: 450px;
+	height: 25px;
+
+}
+
+#input > input:hover {
+	border-width: 1px;
+	border-color: gray;
+}
+
+#buttons {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#buttons > button {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+#buttons > button:hover {
+	color: black;
+	border-width: 1px;
+	border-color: gray;
+
+}
+
+#text {
+	text-align: center;
+	margin-top: 20px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+#text > a {
+	text-decoration: none;
+}
+
+#text > a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #E9E9E9;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: solid;
+	border-top-color: #E9E9EF;
+	border-top-width: 1px;
+}
+
+footer > ul {
+	list-style-type: none;
+}
+
+
+footer > ul > li > a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+
+footer > ul > li > a:hover {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+footer > ul > li {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+footer > ul > li:nth-child(4) {
+	margin-left: 500px;
+}
+
